@@ -1,0 +1,212 @@
+body{
+    background-color: black;
+}
+h1{
+    color: #817D92;
+    margin-top: 10%;
+    margin-left: 40%;
+}
+#showPasswordBox{
+    width:28%;
+    height:7%;
+    background-color: #24232C;
+    position: absolute;
+    margin-left: 33%;
+}
+#selectPasswordBox{
+    width:28%;
+    height:45%;
+    background-color: #24232C;
+    position: absolute; 
+    margin-left: 33%;
+    margin-top: 5%;
+}
+h3{
+    color:white;
+    margin-left:3%;
+}
+#length{
+    /* -webkit-appearance: none;  */
+    /* appearance: none; */
+     width: 94%;
+    height: 2%;
+    margin-top:3%;
+    margin-left: 3%;
+    background-color: #18171F;
+    accent-color: #99eda4;
+}
+#length:hover{
+    cursor: pointer;
+    background-color: grey;
+}
+/* #length::-webkit-slider-thumb {
+   -webkit-appearance: none; 
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%; 
+    background: #04AA6D;
+    cursor: pointer;
+  }  */
+  #checkbox1{
+    width: 20px;
+    height: 5%;
+    position: absolute;
+    margin-left: 6%;
+    margin-top:4%;
+    accent-color: #99eda4;
+  }
+  #checkbox2{
+    width: 20px;
+    height: 5%;
+    position: absolute;
+    margin-left: 6%;
+    margin-top:4%;
+    accent-color: #99eda4;
+  }
+  #checkbox3{
+    width: 20px;
+    height: 5%;
+    position: absolute;
+    margin-left: 6%;
+    margin-top:4%;
+    accent-color: #99eda4;
+  }
+  #checkbox4{
+    width: 20px;
+    height: 5%;
+    position: absolute;
+    margin-left: 6%;
+    margin-top:4%;
+    accent-color: #99eda4;
+  }
+   label{
+    color:white;
+    font-size:0.5cm;
+  } 
+  #upper{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 12%;
+  }
+  #lower{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 12%;
+  }
+  #number{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 12%;
+  }
+  #symbol{
+    position: absolute;
+    margin-top: 4%;
+    margin-left: 12%;
+  }
+  .copyIcon{
+    font-size: 150%;
+    color: #99eda4;
+    margin-top: 3.5%;
+    margin-left: 91%;
+    position: absolute;  
+
+
+  }
+  #strength{
+    width: 90%;
+    height: 14%;
+    background-color: #18171F;
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  #generate{
+    width: 90%;
+    height: 14%;
+    background-color: #99eda4;
+    margin-top: 8%;
+    margin-left: 5%;
+  }
+  #strengthPosition{
+    color: #817D92;
+    position: absolute;
+    font-size: 0.5cm;
+    margin-top: 4%;
+  }
+  #generatePosition{
+    color:#18171f;
+  }
+  .rightarrow{
+    font-size: medium;
+    position: absolute; 
+    top:87%;
+    color:white;
+    left:61%;
+    color:#18171f;
+  }
+#passwordText{
+    width: 86%;
+    position: absolute;
+    height: 96%;
+    color:white;
+    font-size: 0.8cm;
+    margin:3% 2%;
+}
+#rangelength{
+    width: 13%;
+    height: 10%;
+    /* background: red; */
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 88%;
+    color:white;
+    font-size:0.8cm;
+}
+.copyIcon:hover{
+    color:white;
+}
+/* #generate:hover{
+    background-color: #18171F;
+    text-color:white;
+    border:1px solid #99eda4;
+}
+#generatePosition:hover{
+    color:white;
+} */
+
+#strengthValue{
+    position: absolute;
+    margin-left: 50%;
+}
+#strengthBox1{
+    width: 2%;
+    height: 3%;
+    border: 1px solid white;
+    margin-left: 70%;
+    position: absolute;
+    top: 63.5%;
+}
+#strengthBox2{
+    width: 2%;
+    height: 3%;
+    border: 1px solid white;
+    margin-left: 73%;
+    position: absolute;
+    top: 63.5%;
+}
+#strengthBox3{
+    width: 2%;
+    height: 3%;
+    border: 1px solid white;
+    margin-left: 76%;
+    position: absolute;
+    top: 63.5%;
+}
+#strengthBox4{
+    width: 2%;
+    height: 3%;
+    border: 1px solid white;
+    margin-left: 79%;
+    position: absolute;
+    top: 63.5%;
+}

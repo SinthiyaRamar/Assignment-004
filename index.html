@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8" />
+    <link href="style.css" type="text/css" rel="stylesheet"></link>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <script src="https://kit.fontawesome.com/4d300accb8.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+	<title></title>
+</head>
+
+<body>
+
+     <h1>password generator</h1>
+    <div id="showPasswordBox" >
+        <div id="passwordText">
+            <h2 id="showPassword"></h2>
+        </div>
+       
+        <i class="fa-regular fa-copy copyIcon" onclick="copy()"></i>
+    </div>
+    <div id="selectPasswordBox" >
+        <h3>charcter Length</h3>
+        <div id="rangelength"></div>
+        <input type="range" id="length" oninput="rangeValue()" value="10" min="8" max="20"></input>
+       <br></br> 
+        <input type="checkbox" id="checkbox1"></input>
+        <label id="upper" name="upper">Include Uppercase Letters</label> <br></br> 
+        <input type="checkbox" id="checkbox2"></input>
+        <label id="lower" name="lower">Include lowercase Letters</label> <br></br> 
+        <input type="checkbox" id="checkbox3"></input>
+        <label id="number" name="number">Include Numbers</label> <br></br> 
+        <input type="checkbox" id="checkbox4"></input>
+        <label id="symbol" name="symbol">Include Symbols</label> <br></br> 
+        <div id="strength">
+         <h3 id="strengthPosition">STRENGTH</h3>
+         <h3 id="strengthValue" ></h3>
+         <div id="strengthBox1"></div>
+         <div id="strengthBox2"></div>
+         <div id="strengthBox3"></div>
+         <div id="strengthBox4"></div>
+        </div>
+        <button id="generate" onclick="generatePassWord()">
+            <h3 id="generatePosition" >GENERATE  </h3>
+            <i class="fa-sharp fa-solid fa-arrow-right rightarrow"></i>
+        </button>
+    </div>
+
+</body>
+</html>
